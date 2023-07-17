@@ -1,0 +1,152 @@
+*{
+  font-family: sans-serif;
+}
+
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  color: #61dafb;
+  background-color: #282c34;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  color: #61dafb;
+  background-color: #282c34;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1em;
+}
+
+footer {
+  color: #61dafb;
+  background-color: #282c34;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* contactlistlayer end */
+
+.contactlistlayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 0.5em;
+}
+
+.contactlistlayer .contactlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  row-gap: 2px;
+  padding: 0px;
+  width: 100%;
+  list-style: none;
+}
+
+.contactlistlayer .contactlist .item {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #434a58;
+}
+
+.contactlistlayer .contactlist .item .usericon_input {
+  margin: 0.3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #434a58;
+}
+
+.contactlistlayer .contactlist .item .usericon_input .contacttext {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contactlistlayer .contactlist .item .usericon_input .name p,
+.contactlistlayer .contactlist .item .usericon_input .email p {
+  margin: 0.3em;
+  color: white;
+}
+
+.contactlistlayer .contactlist .item .deleteicon svg,
+.contactlistlayer .contactlist .item .usericon_input svg {
+  width: 48px;
+  min-width: 48px;
+  height: 36px;
+  font-size: 1rem;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.contactlistlayer .contactlist .item .deleteicon svg:focus,
+.contactlistlayer .contactlist .item .deleteicon svg:hover {
+  color: red;
+  outline: none;
+}
+
+/* contactlistlayer end */
+
+.contacts{
+  display: flex;
+  justify-content: center;
+}
+.contacts h3{
+  margin: 0.3em;
+}
+
+/* addnewcontactlayer start */
+
+.addnewcontactlayer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.addnewcontactlayer .newcontactform {
+  display: flex;
+  width: 100%;
+}
+
+.addnewcontactlayer .newcontactform .newcontacttext {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addnewcontactlayer .newcontactform .newcontacttext input {
+  height: 1.5em;
+}
+
+.addnewcontactlayer .newcontactform .newcontactbutton {
+  height: 3.2em;
+  width: 10%;
+}
+
+.addnewcontactlayer .newcontactform .newcontactbutton button {
+  background-color: steelblue;
+  height: 100%;
+  width: 100%;
+}
+
+/* addnewcontactlayer end */
